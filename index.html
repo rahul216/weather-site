@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="weather.css" />
+    <script
+      src="https://kit.fontawesome.com/a529a16769.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="weather">
+        <img src="images/sunny.png" class="sunny icon" />
+        <h1 class="temp">15°C</h1>
+        <h2 class="city">New Delhi</h2>
+        <div class="details">
+          <div class="column col1">
+            <img src="images/humid.png" class="humid" />
+            <div><h3 class="humidity">Humidity</h3>
+                <h3 class="humidity-percent">50%</h3>
+                </div>
+          </div>
+          
+
+          <div class="column col2">
+            <img src="images/wind.png" class="wind" />
+            <div><h3 class="windspeed">Wind speed</h3>
+            <h3 class="speed">12 Km/h</h3>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
